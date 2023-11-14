@@ -1,7 +1,0 @@
-GET http://152.67.254.140/bbc
-
-###
-GET http://localhost:3000/news/bbc
-
-###
-GET https://news.310soft.com/bbc 
