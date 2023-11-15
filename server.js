@@ -5,7 +5,7 @@ const getNyNews = require('./nytimes.js')
 const app = express();
 const port = 3000; // Change this to your desired port
 
-app.get('/news/bbc', async (req, res) => {
+app.get('/bbc', async (req, res) => {
 
   try {
     const newsData = await getBbcNews();
@@ -16,7 +16,7 @@ app.get('/news/bbc', async (req, res) => {
   }
 });
 
-app.get('/news/nytimes', async (req, res) => {
+app.get('/nytimes', async (req, res) => {
 
   try {
     const newsData = await getNyNews();
